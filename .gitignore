@@ -1,0 +1,9 @@
+# node modules
+node_modules/
+
+# data
+data/
+
+# output
+*.txt
+*.png

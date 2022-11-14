@@ -1,0 +1,24 @@
+{
+  "name": "carbon4q",
+  "version": "1.0.0",
+  "description": "Share code images decorated by Carbon in your QQ group.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyR0ver/carbon4q.git"
+  },
+  "author": "Anston Sun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkyR0ver/carbon4q/issues"
+  },
+  "homepage": "https://github.com/SkyR0ver/carbon4q#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "oicq": "^2.3.1",
+    "oicq-sdk": "^0.2.0"
+  }
+}
