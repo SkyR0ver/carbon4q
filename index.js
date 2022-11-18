@@ -7,6 +7,8 @@ const osdk = require("oicq-sdk");
 
 // Handlers
 const carbon = require("./carbon");
+
+// Config
 const config = require("./config");
 
 exec("carbon-now --help", (error, stdout, stderr) => {
@@ -16,7 +18,7 @@ exec("carbon-now --help", (error, stdout, stderr) => {
         process.exit(1);
     }
     
-    //init();
+    // Init
     const Bot = new osdk.Bot(config.account);
     Bot.loginByToken().catch(_ => {
         Bot.loginByQRCode().catch(e => { console.log(e) });
